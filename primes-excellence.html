@@ -28,7 +28,7 @@ body{min-height:100%;min-height:-webkit-fill-available;overflow:hidden;font-fami
 #app{height:100vh;height:100dvh;display:flex;flex-direction:column;max-width:430px;margin:0 auto;background:var(--g50);position:relative;overflow:hidden;box-shadow:0 0 60px rgba(0,0,0,.4)}
 
 /* HEADER */
-.hdr{background:var(--white);padding:12px 16px;display:flex;align-items:center;gap:10px;border-bottom:1px solid var(--g200);flex-shrink:0;min-height:56px}
+.hdr{background:var(--white);padding:12px 16px;padding-top:max(env(safe-area-inset-top),12px);display:flex;align-items:center;gap:10px;border-bottom:1px solid var(--g200);flex-shrink:0;min-height:56px}
 .hdr h1{font-size:17px;font-weight:700;color:var(--g900);flex:1;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .hdr .sub{font-size:12px;color:var(--g500);margin-top:1px}
 .btn-back{width:36px;height:36px;border:none;background:var(--g100);border-radius:50%;display:flex;align-items:center;justify-content:center;cursor:pointer;font-size:18px;color:var(--g700);flex-shrink:0}
